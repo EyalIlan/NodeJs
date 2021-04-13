@@ -27,7 +27,7 @@ yargs.command({
     command:'pow',
     describe:'add 2 number',
     handler: function (args) {
-        console.log(args.num1 + args.num2)
+        console.log(Math.pow(args.num1,args.num2))
     }
 })
 
